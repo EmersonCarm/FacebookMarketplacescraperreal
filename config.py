@@ -15,11 +15,13 @@ RADIUS_MILES = 40
 # listing is flagged as a deal if its price is <= deal_ratio * the median price
 # of everything else you've seen so far for that same search term.
 SEARCHES = [
-    {"term": "rtx 3080", "max_price": 400, "deal_ratio": 0.75},
-    {"term": "rtx 4070", "max_price": 500, "deal_ratio": 0.75},
+    {"term": "3080", "max_price": 400, "deal_ratio": 0.75},
+    {"term": "4070", "max_price": 500, "deal_ratio": 0.75},
     {"term": "ryzen 7", "max_price": 200, "deal_ratio": 0.75},
     {"term": "ddr4 32gb", "max_price": 80, "deal_ratio": 0.75},
-    {"term": "nvme ssd 1tb", "max_price": 60, "deal_ratio": 0.75},
+    {"term": "ddr5 32gb", "max_price": 150, "deal_ratio": 0.75},
+    {"term": "nvme ssd 1tb", "max_price": 70, "deal_ratio": 0.75},
+    {"term": "9070", "max_price": 500, "deal_ratio": 0.75}
 ]
 
 # How many prior listings for a given search term are needed before the
